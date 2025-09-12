@@ -1,0 +1,1 @@
+console.log('Captura de Tela Rápida: script de conteúdo carregado.');

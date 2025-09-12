@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Captura de Tela Rápida — Extensão Chrome</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+    h1 { color: #333; }
+    a { color: #4CAF50; }
+    ul { margin: 20px 0; }
+    img { max-width: 100%; height: auto; margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <h1>Captura de Tela Rápida</h1>
+  <p>Uma extensão do Chrome (Manifest V3) para capturar screenshots da aba ativa e baixar a imagem com escolha de local.</p>
+  <h2>Funcionalidades</h2>
+  <ul>
+    <li>Capturar screenshot da aba visível atual</li>
+    <li>Baixar como PNG com timestamp no nome</li>
+    <li>Diálogo de salvamento para escolher o local no PC</li>
+  </ul>
+  <h2>Screenshots</h2>
+  <img src="Prints/print1.png">
+  <img src="Prints/print2.png">
+  <img src="Prints/print3.png">
+  <img src="Prints/print4.png">
+  <h2>Instalação (Modo Desenvolvedor)</h2>
+  <ol>
+    <li>Baixe o <a href="https://github.com/mldsdaniel1303/BOOTCAMP">ZIP da extensão</a>.</li>
+    <li>Abra <code>chrome://extensions</code> no Chrome.</li>
+    <li>Ative o <strong>Modo Desenvolvedor</strong>.</li>
+    <li>Clique em <strong>Carregar sem compactação</strong> e selecione a pasta da extensão descompactada.</li>
+  </ol>
+  <h2>Configuração para Escolha de Local</h2>
+  <p>No Chrome: Configurações > Downloads > Marque "Perguntar onde salvar cada arquivo antes de baixar".</p>
+  <h2>Permissões</h2>
+  <ul>
+    <li><code>tabs</code>: Para capturar a aba ativa</li>
+    <li><code>downloads</code>: Para baixar o screenshot</li>
+    <li><code>activeTab</code>: Para interagir com a aba atual</li>
+    <li><code>https://*/*</code>, <code>http://*/*</code>: Para funcionar em todas as páginas web</li>
+  </ul>
+  <p><a href="https://github.com/mldsdaniel1303/BOOTCAMP">Ver código-fonte no GitHub</a></p>
+</body>
+</html>
