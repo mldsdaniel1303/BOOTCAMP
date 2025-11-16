@@ -1,0 +1,1 @@
+import axios from 'axios'; const API=import.meta.env.VITE_API_URL||'http://localhost:3000'; export async function buscarCep(cep){const r=await axios.get(`${API}/api/cep/${cep.replace(/\D/g,'')}`);return r.data;}
